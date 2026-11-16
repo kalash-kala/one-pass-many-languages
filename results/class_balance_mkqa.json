@@ -1,0 +1,35 @@
+{
+  "llama": {
+    "n_questions": 2000,
+    "n_valid": 1994,
+    "n_rows": 9970,
+    "dep_strict_rate": 0.888,
+    "row_diff_rate": 0.354,
+    "judge_correct_rate": 0.33,
+    "alias_correct_rate": 0.306,
+    "judge_alias_agreement": 0.885,
+    "refusal_rate": 0.164
+  },
+  "qwen": {
+    "n_questions": 2000,
+    "n_valid": 1994,
+    "n_rows": 9970,
+    "dep_strict_rate": 0.878,
+    "row_diff_rate": 0.355,
+    "judge_correct_rate": 0.246,
+    "alias_correct_rate": 0.235,
+    "judge_alias_agreement": 0.893,
+    "refusal_rate": 0.159
+  },
+  "gemma": {
+    "n_questions": 2000,
+    "n_valid": 1995,
+    "n_rows": 9975,
+    "dep_strict_rate": 0.777,
+    "row_diff_rate": 0.312,
+    "judge_correct_rate": 0.343,
+    "alias_correct_rate": 0.318,
+    "judge_alias_agreement": 0.874,
+    "refusal_rate": 0.055
+  }
+}

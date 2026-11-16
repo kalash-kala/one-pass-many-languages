@@ -1,0 +1,86 @@
+{
+  "llama": {
+    "n_rows": 686,
+    "n_territories": 242,
+    "dep_strict_rate": 0.711,
+    "dep_claimant_rate": 0.145,
+    "dep_claimant_n": 83,
+    "row_diff_rate": 0.36,
+    "label_dist": {
+      "CLAIMANT": 276,
+      "REFUSAL": 128,
+      "OTHER": 126,
+      "DISPUTED": 124,
+      "UNCLEAR": 32
+    },
+    "judge_status": {
+      "ok": 685,
+      "invalid_label:Democratic Republic of the Congo": 1
+    },
+    "label_fix": {
+      "none": 675,
+      "other_substring": 10,
+      "gloss_recovered": 1
+    }
+  },
+  "qwen": {
+    "n_rows": 686,
+    "n_territories": 242,
+    "dep_strict_rate": 0.715,
+    "dep_claimant_rate": 0.224,
+    "dep_claimant_n": 98,
+    "row_diff_rate": 0.335,
+    "label_dist": {
+      "CLAIMANT": 307,
+      "OTHER": 110,
+      "DISPUTED": 95,
+      "REFUSAL": 95,
+      "UNCLEAR": 79
+    },
+    "judge_status": {
+      "ok": 686
+    },
+    "label_fix": {
+      "none": 671,
+      "other_substring": 14,
+      "other_alias": 1
+    }
+  },
+  "gemma": {
+    "n_rows": 686,
+    "n_territories": 242,
+    "dep_strict_rate": 0.657,
+    "dep_claimant_rate": 0.157,
+    "dep_claimant_n": 89,
+    "row_diff_rate": 0.329,
+    "label_dist": {
+      "CLAIMANT": 281,
+      "OTHER": 203,
+      "DISPUTED": 170,
+      "UNCLEAR": 28,
+      "REFUSAL": 4
+    },
+    "judge_status": {
+      "ok": 673,
+      "invalid_label:\u0423\u043a\u0440\u0430\u0457\u043d\u0438": 2,
+      "invalid_label:\u0627\u0644\u064a\u0645\u0646": 1,
+      "invalid_label:\u0633\u0648\u0631\u064a\u0627": 1,
+      "invalid_label:\u0627\u0644\u0633\u0648\u062f\u0627\u0646": 1,
+      "invalid_label:Camer\u00fan": 1,
+      "invalid_label:\u30ed\u30b7\u30a2": 1,
+      "invalid_label:\u0420\u043e\u0441\u0441\u0438\u044f": 1,
+      "invalid_label:Singapura": 1,
+      "invalid_label:\u0423\u043a\u0440\u0430\u0438\u043d\u0430": 1,
+      "invalid_label:\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e01\u0e31\u0e21\u0e1e\u0e39\u0e0a\u0e32": 1,
+      "invalid_label:\u0423\u043a\u0440\u0430\u0457\u043d\u0456": 1,
+      "invalid_label:\u4e2d\u83ef\u6c11\u570b": 1
+    },
+    "label_fix": {
+      "none": 657,
+      "other_substring": 13,
+      "gloss_recovered": 10,
+      "other_alias": 3,
+      "invalid_to_unclear": 3
+    }
+  }
+}

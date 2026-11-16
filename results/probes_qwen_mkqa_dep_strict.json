@@ -1,0 +1,210 @@
+{
+  "model": "qwen",
+  "dataset": "mkqa",
+  "target": "dep_strict",
+  "n_rows": 9970,
+  "n_groups": 1994,
+  "baseline_first_token_entropy": {
+    "auroc": 0.5636,
+    "auroc_ci": [
+      0.5376,
+      0.5886
+    ],
+    "auprc": 0.8969,
+    "auprc_ci": [
+      0.8819,
+      0.911
+    ],
+    "base_rate": 0.8781
+  },
+  "baseline_neg_mean_logprob": {
+    "auroc": 0.5838,
+    "auroc_ci": [
+      0.5577,
+      0.6112
+    ],
+    "auprc": 0.9043,
+    "auprc_ci": [
+      0.8897,
+      0.918
+    ],
+    "base_rate": 0.8781
+  },
+  "baseline_answer_length": {
+    "auroc": 0.5033,
+    "auroc_ci": [
+      0.487,
+      0.5206
+    ],
+    "auprc": 0.8787,
+    "auprc_ci": [
+      0.8639,
+      0.8932
+    ],
+    "base_rate": 0.8781
+  },
+  "baseline_metadata": {
+    "auroc": 0.4664,
+    "auroc_ci": [
+      0.4281,
+      0.5039
+    ],
+    "auprc": 0.8685,
+    "auprc_ci": [
+      0.8499,
+      0.8867
+    ],
+    "base_rate": 0.8781
+  },
+  "baseline_question_text": {
+    "auroc": 0.6431,
+    "auroc_ci": [
+      0.6088,
+      0.6773
+    ],
+    "auprc": 0.9225,
+    "auprc_ci": [
+      0.908,
+      0.9368
+    ],
+    "base_rate": 0.8781
+  },
+  "A_linear_probe": {
+    "auroc": 0.7679,
+    "auroc_ci": [
+      0.7366,
+      0.7965
+    ],
+    "auprc": 0.9533,
+    "auprc_ci": [
+      0.9426,
+      0.963
+    ],
+    "base_rate": 0.8781,
+    "chosen": [
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7827
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7634
+      },
+      {
+        "layer": 24,
+        "C": 0.001,
+        "inner_auroc": 0.7551
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7621
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7604
+      }
+    ]
+  },
+  "C_lang_normalised": {
+    "auroc": 0.7711,
+    "auroc_ci": [
+      0.7428,
+      0.8011
+    ],
+    "auprc": 0.9535,
+    "auprc_ci": [
+      0.9428,
+      0.9635
+    ],
+    "base_rate": 0.8781,
+    "chosen": [
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7807
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7613
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7545
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.7613
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.758
+      }
+    ]
+  },
+  "paired_A_vs_best_baseline": {
+    "baseline": "baseline_question_text",
+    "diff": 0.1248,
+    "ci": [
+      0.0899,
+      0.1609
+    ],
+    "p_one_sided": 0.0
+  },
+  "paired_A_vs_each_baseline": {
+    "baseline_first_token_entropy": {
+      "diff": 0.2043,
+      "ci": [
+        0.1722,
+        0.2363
+      ],
+      "p_one_sided": 0.0
+    },
+    "baseline_neg_mean_logprob": {
+      "diff": 0.1841,
+      "ci": [
+        0.1526,
+        0.2156
+      ],
+      "p_one_sided": 0.0
+    },
+    "baseline_answer_length": {
+      "diff": 0.2646,
+      "ci": [
+        0.2316,
+        0.2956
+      ],
+      "p_one_sided": 0.0
+    },
+    "baseline_metadata": {
+      "diff": 0.3015,
+      "ci": [
+        0.2529,
+        0.3504
+      ],
+      "p_one_sided": 0.0
+    },
+    "baseline_question_text": {
+      "diff": 0.1248,
+      "ci": [
+        0.0923,
+        0.1581
+      ],
+      "p_one_sided": 0.0
+    }
+  },
+  "B_spread_ridge": {
+    "spearman": 0.3674,
+    "spearman_ci": [
+      0.3289,
+      0.403
+    ]
+  }
+}

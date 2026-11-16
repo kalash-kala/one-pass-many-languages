@@ -1,0 +1,321 @@
+{
+  "model": "qwen",
+  "dataset": "borderlines",
+  "target": "dep_claimant",
+  "n_rows": 294,
+  "n_groups": 98,
+  "baseline_first_token_entropy": {
+    "auroc": 0.5008,
+    "auroc_ci": [
+      0.4158,
+      0.586
+    ],
+    "auprc": 0.2435,
+    "auprc_ci": [
+      0.1603,
+      0.3574
+    ],
+    "base_rate": 0.2347
+  },
+  "baseline_neg_mean_logprob": {
+    "auroc": 0.6122,
+    "auroc_ci": [
+      0.535,
+      0.6841
+    ],
+    "auprc": 0.2947,
+    "auprc_ci": [
+      0.1956,
+      0.419
+    ],
+    "base_rate": 0.2347
+  },
+  "baseline_answer_length": {
+    "auroc": 0.6174,
+    "auroc_ci": [
+      0.5405,
+      0.6915
+    ],
+    "auprc": 0.3049,
+    "auprc_ci": [
+      0.1978,
+      0.4365
+    ],
+    "base_rate": 0.2347
+  },
+  "baseline_metadata": {
+    "auroc": 0.4065,
+    "auroc_ci": [
+      0.3038,
+      0.5119
+    ],
+    "auprc": 0.195,
+    "auprc_ci": [
+      0.1228,
+      0.2911
+    ],
+    "base_rate": 0.2347
+  },
+  "baseline_question_text": {
+    "auroc": 0.4729,
+    "auroc_ci": [
+      0.3594,
+      0.5905
+    ],
+    "auprc": 0.2145,
+    "auprc_ci": [
+      0.1384,
+      0.3265
+    ],
+    "base_rate": 0.2347
+  },
+  "A_linear_probe": {
+    "auroc": 0.4263,
+    "auroc_ci": [
+      0.3057,
+      0.5491
+    ],
+    "auprc": 0.2054,
+    "auprc_ci": [
+      0.1282,
+      0.3082
+    ],
+    "base_rate": 0.2347,
+    "chosen": [
+      {
+        "layer": 16,
+        "C": 0.1,
+        "inner_auroc": 0.6626
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "inner_auroc": 0.5809
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "inner_auroc": 0.6656
+      },
+      {
+        "layer": 2,
+        "C": 0.1,
+        "inner_auroc": 0.6724
+      },
+      {
+        "layer": 16,
+        "C": 0.01,
+        "inner_auroc": 0.5297
+      }
+    ]
+  },
+  "C_lang_normalised": {
+    "auroc": 0.3611,
+    "auroc_ci": [
+      0.2654,
+      0.4684
+    ],
+    "auprc": 0.1762,
+    "auprc_ci": [
+      0.1095,
+      0.2589
+    ],
+    "base_rate": 0.2347,
+    "chosen": [
+      {
+        "layer": 18,
+        "C": 0.01,
+        "inner_auroc": 0.6155
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.58
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "inner_auroc": 0.682
+      },
+      {
+        "layer": 2,
+        "C": 0.1,
+        "inner_auroc": 0.7279
+      },
+      {
+        "layer": 12,
+        "C": 0.001,
+        "inner_auroc": 0.6137
+      }
+    ]
+  },
+  "paired_A_vs_best_baseline": {
+    "baseline": "baseline_answer_length",
+    "diff": -0.191,
+    "ci": [
+      -0.321,
+      -0.0566
+    ],
+    "p_one_sided": 0.9985
+  },
+  "paired_A_vs_each_baseline": {
+    "baseline_first_token_entropy": {
+      "diff": -0.0745,
+      "ci": [
+        -0.2285,
+        0.0715
+      ],
+      "p_one_sided": 0.8315
+    },
+    "baseline_neg_mean_logprob": {
+      "diff": -0.1859,
+      "ci": [
+        -0.3208,
+        -0.053
+      ],
+      "p_one_sided": 0.9945
+    },
+    "baseline_answer_length": {
+      "diff": -0.191,
+      "ci": [
+        -0.3161,
+        -0.0561
+      ],
+      "p_one_sided": 0.9965
+    },
+    "baseline_metadata": {
+      "diff": 0.0199,
+      "ci": [
+        -0.0916,
+        0.1429
+      ],
+      "p_one_sided": 0.3605
+    },
+    "baseline_question_text": {
+      "diff": -0.0465,
+      "ci": [
+        -0.2146,
+        0.1275
+      ],
+      "p_one_sided": 0.708
+    }
+  },
+  "heldout_language": {
+    "layer": 16,
+    "C": 0.001,
+    "results": {
+      "en": {
+        "auroc": 0.4522,
+        "auroc_ci": [
+          0.3069,
+          0.6064
+        ],
+        "auprc": 0.2281,
+        "auprc_ci": [
+          0.1415,
+          0.3876
+        ],
+        "base_rate": 0.2245,
+        "n": 98
+      },
+      "zht": {
+        "auroc": 0.4355,
+        "auroc_ci": [
+          0.1387,
+          0.7761
+        ],
+        "auprc": 0.3146,
+        "auprc_ci": [
+          0.0643,
+          0.6804
+        ],
+        "base_rate": 0.1622,
+        "n": 37
+      },
+      "zhs": {
+        "auroc": 0.5725,
+        "auroc_ci": [
+          0.3499,
+          0.7963
+        ],
+        "auprc": 0.2518,
+        "auprc_ci": [
+          0.1121,
+          0.5409
+        ],
+        "base_rate": 0.2069,
+        "n": 29
+      },
+      "ru": {
+        "auroc": 0.5385,
+        "auroc_ci": [
+          0.25,
+          0.8333
+        ],
+        "auprc": 0.1964,
+        "auprc_ci": [
+          0.1,
+          0.5333
+        ],
+        "base_rate": 0.1333,
+        "n": 15
+      },
+      "es": {
+        "auroc": 0.6786,
+        "auroc_ci": [
+          0.3292,
+          1.0
+        ],
+        "auprc": 0.5012,
+        "auprc_ci": [
+          0.2103,
+          1.0
+        ],
+        "base_rate": 0.3636,
+        "n": 11
+      },
+      "ar": {
+        "auroc": 0.6667,
+        "auroc_ci": [
+          0.3333,
+          1.0
+        ],
+        "auprc": 0.25,
+        "auprc_ci": [
+          0.1667,
+          1.0
+        ],
+        "base_rate": 0.1,
+        "n": 10
+      },
+      "hi": {
+        "auroc": 0.375,
+        "auroc_ci": [
+          0.0,
+          0.75
+        ],
+        "auprc": 0.1667,
+        "auprc_ci": [
+          0.125,
+          0.6
+        ],
+        "base_rate": 0.1111,
+        "n": 9
+      },
+      "fr": {
+        "auroc": 0.125,
+        "auroc_ci": [
+          0.0,
+          0.4286
+        ],
+        "auprc": 0.125,
+        "auprc_ci": [
+          0.1111,
+          0.4444
+        ],
+        "base_rate": 0.1111,
+        "n": 9
+      }
+    }
+  }
+}

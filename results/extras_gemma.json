@@ -1,0 +1,78 @@
+{
+  "cross_mkqa_to_borderlines": {
+    "auroc": 0.804,
+    "auroc_ci": [
+      0.7526,
+      0.8521
+    ],
+    "auprc": 0.8749,
+    "auprc_ci": [
+      0.8273,
+      0.9184
+    ],
+    "base_rate": 0.6662,
+    "layer": 32,
+    "C": 0.001,
+    "inner_auroc_on_train": 0.761
+  },
+  "cross_borderlines_to_mkqa": {
+    "auroc": 0.6417,
+    "auroc_ci": [
+      0.618,
+      0.6661
+    ],
+    "auprc": 0.8509,
+    "auprc_ci": [
+      0.8314,
+      0.8689
+    ],
+    "base_rate": 0.7769,
+    "layer": 20,
+    "C": 0.001,
+    "inner_auroc_on_train": 0.7846
+  },
+  "mlp_borderlines": {
+    "auroc": 0.7217,
+    "auroc_ci": [
+      0.6651,
+      0.7749
+    ],
+    "auprc": 0.8137,
+    "auprc_ci": [
+      0.7489,
+      0.8693
+    ],
+    "base_rate": 0.6662,
+    "layer": 26,
+    "mlp_minus_linear": {
+      "diff": -0.0469,
+      "ci": [
+        -0.0856,
+        -0.0092
+      ],
+      "p_one_sided": 0.994
+    }
+  },
+  "mlp_mkqa": {
+    "auroc": 0.6897,
+    "auroc_ci": [
+      0.6662,
+      0.7127
+    ],
+    "auprc": 0.8726,
+    "auprc_ci": [
+      0.8553,
+      0.8901
+    ],
+    "base_rate": 0.7769,
+    "layer": 32,
+    "mlp_minus_linear": {
+      "diff": -0.0608,
+      "ci": [
+        -0.081,
+        -0.0401
+      ],
+      "p_one_sided": 1.0
+    }
+  }
+}

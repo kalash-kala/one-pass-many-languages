@@ -1,0 +1,26 @@
+{
+  "llama-qwen": {
+    "n": 242,
+    "jaccard": 0.6507,
+    "kappa": 0.2632,
+    "agreement": 0.6983,
+    "rate_a": 0.7107,
+    "rate_b": 0.7149
+  },
+  "llama-gemma": {
+    "n": 242,
+    "jaccard": 0.6386,
+    "kappa": 0.3047,
+    "agreement": 0.6983,
+    "rate_a": 0.7107,
+    "rate_b": 0.657
+  },
+  "qwen-gemma": {
+    "n": 242,
+    "jaccard": 0.6195,
+    "kappa": 0.2548,
+    "agreement": 0.6777,
+    "rate_a": 0.7149,
+    "rate_b": 0.657
+  }
+}
