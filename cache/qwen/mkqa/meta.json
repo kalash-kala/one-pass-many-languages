@@ -1,0 +1,17 @@
+{
+  "model": "qwen",
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "class_": "Qwen2ForCausalLM",
+  "prompt_format": "chat template, single user turn = question only, add_generation_prompt=True",
+  "example_chat": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nwho sings love you like there's no tomorrow<|im_end|>\n<|im_start|>assistant\n",
+  "decoding": "greedy",
+  "max_new_tokens": 64,
+  "seed": 0,
+  "save_dtype": "float16",
+  "n_prompts": 10000,
+  "torch": "2.8.0+cu128",
+  "transformers": "4.57.0",
+  "python": "3.10.19",
+  "host": "n1",
+  "git_commit": null
+}
