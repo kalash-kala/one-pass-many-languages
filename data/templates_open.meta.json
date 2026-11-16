@@ -1,0 +1,9 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "en_template": "Which country does XX belong to?",
+  "fwd_prompt": "Translate the following English question into {lang}. The token XX is a placeholder for a place name: keep it exactly as XX (Latin letters, unchanged) and place it where the place name belongs grammatically. Output only the translated question, nothing else.\n\n{text}",
+  "back_prompt": "Translate the following {lang} question into English. The token XX is a placeholder: keep it exactly as XX. Output only the English translation, nothing else.\n\n{text}",
+  "decoding": "greedy, max_new_tokens=64",
+  "torch": "2.8.0+cu128",
+  "transformers": "4.57.0"
+}

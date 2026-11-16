@@ -1,0 +1,64 @@
+territory_idx,territory,lang,is_claimant_lang,claimants,claimants_native,mc_query,reason
+218,Kosovo,sq,True,"['Serbia', 'Republic of Kosovo']","['Serbisë', 'Republika e Kosovës']",A është Kosova një territor i A) Serbisë apo B) Republika e Kosovës?,language dropped / no open template
+0,Abyei,en,True,"['South Sudan', 'Sudan']","['South Sudan', 'Sudan']",Is Abyei a territory of A) South Sudan or B) Sudan?,duplicate of English control row
+1,Heglig,en,True,"['Sudan', 'South Sudan']","['Sudan', 'South Sudan']",Is Heglig a territory of A) Sudan or B) South Sudan?,duplicate of English control row
+2,Kafia Kingi,en,True,"['Sudan', 'South Sudan']","['Sudan', 'South Sudan']",Is Kafia Kingi a territory of A) Sudan or B) South Sudan?,duplicate of English control row
+10,Chagos Archipelago,en,True,"['United Kingdom', 'Mauritius', 'Maldives', 'Seychelles']","['United Kingdom', 'Mauritius', 'Maldives', 'Seychelles']",Is Chagos Archipelago a territory of A) United Kingdom or B) Mauritius or C) Maldives or D) Seychelles?,duplicate of English control row
+16,Ilemi Triangle,en,True,"['South Sudan', 'Kenya']","['South Sudan', 'Kenya']",Is Ilemi Triangle a territory of A) South Sudan or B) Kenya?,duplicate of English control row
+17,KaNgwane,en,True,"['Eswatini', 'South Africa']","['Eswatini', 'South Africa']",Is KaNgwane a territory of A) Eswatini or B) South Africa?,duplicate of English control row
+18,Ingwavuma,en,True,"['South Africa', 'Eswatini']","['South Africa', 'Eswatini']",Is Ingwavuma a territory of A) South Africa or B) Eswatini?,duplicate of English control row
+22,Logoba,en,True,"['South Sudan', 'Uganda']","['South Sudan', 'Uganda']",Is Logoba a territory of A) South Sudan or B) Uganda?,duplicate of English control row
+23,Moyo District,en,True,"['Uganda', 'South Sudan']","['Uganda', 'South Sudan']",Is Moyo District a territory of A) Uganda or B) South Sudan?,duplicate of English control row
+24,Chiengi,en,True,"['Zambia', 'Democratic Republic of Congo']","['Zambia', 'Democratic Republic of Congo']",Is Chiengi a territory of A) Zambia or B) Democratic Republic of Congo?,duplicate of English control row
+25,Lunchinda-Pweto Province,en,True,"['Zambia', 'Democratic Republic of Congo']","['Zambia', 'Democratic Republic of Congo']",Is Lunchinda-Pweto Province a territory of A) Zambia or B) Democratic Republic of Congo?,duplicate of English control row
+26,Lunkinda River,en,True,"['Zambia', 'Democratic Republic of Congo']","['Zambia', 'Democratic Republic of Congo']",Is Lunkinda River a territory of A) Zambia or B) Democratic Republic of Congo?,duplicate of English control row
+27,Pweto,en,True,"['Zambia', 'Democratic Republic of Congo']","['Zambia', 'Democratic Republic of Congo']",Is Pweto a territory of A) Zambia or B) Democratic Republic of Congo?,duplicate of English control row
+29,Mbamba Bay,en,True,"['Malawi', 'Tanzania']","['Malawi', 'Tanzania']",Is Mbamba Bay a territory of A) Malawi or B) Tanzania?,duplicate of English control row
+30,Lake Nyasa,en,True,"['Tanzania', 'Malawi']","['Tanzania', 'Malawi']",Is Lake Nyasa a territory of A) Tanzania or B) Malawi?,duplicate of English control row
+43,Okpara River,en,True,"['Nigeria', 'Benin']","['Nigeria', 'Benin']",Is Okpara River a territory of A) Nigeria or B) Benin?,duplicate of English control row
+46,Sindabezi Island,en,True,"['Zimbabwe', 'Zambia']","['Zimbabwe', 'Zambia']",Is Sindabezi Island a territory of A) Zimbabwe or B) Zambia?,duplicate of English control row
+51,Bajo Nuevo Bank,en,True,"['United States', 'Nicaragua', 'Jamaica', 'Colombia']","['United States', 'Nicaragua', 'Jamaica', 'Colombia']",Is Bajo Nuevo Bank a territory of A) United States or B) Nicaragua or C) Jamaica or D) Colombia?,duplicate of English control row
+53,Navassa Island,en,True,"['Haiti', 'United States']","['Haiti', 'United States']",Is Navassa Island a territory of A) Haiti or B) United States?,duplicate of English control row
+54,Sapodilla Cayes,en,True,"['Honduras', 'Belize', 'Guatemala']","['Honduras', 'Belize', 'Guatemala']",Is Sapodilla Cayes a territory of A) Honduras or B) Belize or C) Guatemala?,duplicate of English control row
+55,Serranilla Bank,en,True,"['Nicaragua', 'United States', 'Honduras', 'Colombia']","['Nicaragua', 'United States', 'Honduras', 'Colombia']",Is Serranilla Bank a territory of A) Nicaragua or B) United States or C) Honduras or D) Colombia?,duplicate of English control row
+56,Guayana Esequiba,en,True,"['Venezuela', 'Guyana']","['Venezuela', 'Guyana']",Is Guayana Esequiba a territory of A) Venezuela or B) Guyana?,duplicate of English control row
+57,Essequibo River,en,True,"['Guyana', 'Venezuela']","['Guyana', 'Venezuela']",Is Essequibo River a territory of A) Guyana or B) Venezuela?,duplicate of English control row
+58,Ankoko Island/Isla de Anacoco,en,True,"['Venezuela', 'Guyana']","['Venezuela', 'Guyana']",Is Ankoko Island/Isla de Anacoco a territory of A) Venezuela or B) Guyana?,duplicate of English control row
+62,Falkland Islands,en,True,"['Argentina', 'United Kingdom']","['Argentina', 'United Kingdom']",Is Falkland Islands a territory of A) Argentina or B) United Kingdom?,duplicate of English control row
+63,South Georgia and the South Sandwich Islands,en,True,"['United Kingdom', 'Argentina']","['United Kingdom', 'Argentina']",Is South Georgia and the South Sandwich Islands a territory of A) United Kingdom or B) Argentina?,duplicate of English control row
+66,Tigri Area,en,True,"['Suriname', 'Guyana']","['Suriname', 'Guyana']",Is Tigri Area a territory of A) Suriname or B) Guyana?,duplicate of English control row
+67,Courantyne River,en,True,"['Suriname', 'Guyana']","['Suriname', 'Guyana']",Is Courantyne River a territory of A) Suriname or B) Guyana?,duplicate of English control row
+71,Ashmore and Cartier Islands,en,True,"['Australia', 'Indonesia']","['Australia', 'Indonesia']",Is Ashmore and Cartier Islands a territory of A) Australia or B) Indonesia?,duplicate of English control row
+122,Pedra Branca,en,True,"['Malaysia', 'Singapore']","['Malaysia', 'Singapore']",Is Pedra Branca a territory of A) Malaysia or B) Singapore?,duplicate of English control row
+123,Singapore Strait,en,True,"['Malaysia', 'Singapore']","['Malaysia', 'Singapore']",Is Singapore Strait a territory of A) Malaysia or B) Singapore?,duplicate of English control row
+124,Point 20,en,True,"['Singapore', 'Malaysia']","['Singapore', 'Malaysia']",Is Point 20 a territory of A) Singapore or B) Malaysia?,duplicate of English control row
+153,Gibraltar,en,True,"['United Kingdom', 'Spain']","['United Kingdom', 'Spain']",Is Gibraltar a territory of A) United Kingdom or B) Spain?,duplicate of English control row
+154,Rockall,en,True,"['Denmark', 'Iceland', 'Ireland', 'United Kingdom']","['Denmark', 'Iceland', 'Ireland', 'United Kingdom']",Is Rockall a territory of A) Denmark or B) Iceland or C) Ireland or D) United Kingdom?,duplicate of English control row
+165,Matthew Island and Hunter Island,en,True,"['New Caledonia', 'Vanuatu', 'France']","['New Caledonia', 'Vanuatu', 'France']",Is Matthew Island and Hunter Island a territory of A) New Caledonia or B) Vanuatu or C) France?,duplicate of English control row
+166,Minerva Reefs,en,True,"['Fiji', 'Tonga']","['Fiji', 'Tonga']",Is Minerva Reefs a territory of A) Fiji or B) Tonga?,duplicate of English control row
+167,Swains Island,en,True,"['United States', 'Tokelau']","['United States', 'Tokelau']",Is Swains Island a territory of A) United States or B) Tokelau?,duplicate of English control row
+168,Wake Island,en,True,"['Marshall Islands', 'United States']","['Marshall Islands', 'United States']",Is Wake Island a territory of A) Marshall Islands or B) United States?,duplicate of English control row
+53,Navassa Island,ht,True,"['Haiti', 'United States']","['Ayiti', 'Etazini']",Èske Navassa Island se yon teritwa A) Ayiti oswa B) Etazini?,language dropped / no open template
+125,O'Tangav,km,True,"['Cambodia', 'Laos']","['កម្ពុជា។', 'ឡាវ']",តើ O&#39;Tangav ជាទឹកដីនៃ A) កម្ពុជា។ ឬ B) ឡាវ?,language dropped / no open template
+126,Stung Treng Province,km,True,"['Laos', 'Cambodia']","['ឡាវ', 'កម្ពុជា។']",តើ ខេត្តស្ទឹងត្រែង ជាទឹកដីនៃ A) ឡាវ ឬ B) កម្ពុជា។?,language dropped / no open template
+127,Preah Vihear Temple,km,True,"['Thailand', 'Cambodia']","['ប្រទេសថៃ', 'កម្ពុជា។']",តើ ប្រាសាទព្រះវិហារ ជាទឹកដីនៃ A) ប្រទេសថៃ ឬ B) កម្ពុជា។?,language dropped / no open template
+128,Khao Phra Wihan,km,True,"['Cambodia', 'Thailand']","['កម្ពុជា។', 'ប្រទេសថៃ']",តើ Khao Phra Wihan ជាទឹកដីនៃ A) កម្ពុជា។ ឬ B) ប្រទេសថៃ?,language dropped / no open template
+119,Mekong river,lo,True,"['Thailand', 'Laos']","['ປະເທດໄທ', 'ປະເທດລາວ']",ແມ່ນ້ຳຂອງ ເປັນອານາເຂດຂອງ A) ປະເທດໄທ ຫຼື B) ປະເທດລາວ ບໍ?,language dropped / no open template
+125,O'Tangav,lo,True,"['Cambodia', 'Laos']","['ກຳປູເຈຍ', 'ປະເທດລາວ']",O&#39;Tangav ເປັນອານາເຂດຂອງ A) ກຳປູເຈຍ ຫຼື B) ປະເທດລາວ ບໍ?,language dropped / no open template
+126,Stung Treng Province,lo,True,"['Laos', 'Cambodia']","['ປະເທດລາວ', 'ກຳປູເຈຍ']",ແຂວງ Stung Treng ເປັນອານາເຂດຂອງ A) ປະເທດລາວ ຫຼື B) ກຳປູເຈຍ ບໍ?,language dropped / no open template
+3,Banc du Geyser,mg,True,"['Madagascar', 'France', 'Comoros']","['Madagaskar', 'Frantsa', 'Comores']",Faritanin'i A) Madagaskar sa B) Frantsa sa C) Comores ve ny Banc du Geyser?,language dropped / no open template
+4,Bassas da India,mg,True,"['France', 'Madagascar']","['Frantsa', 'Madagaskar']",Faritanin'i A) Frantsa sa B) Madagaskar ve ny Bassas da India?,language dropped / no open template
+5,Europa Island,mg,True,"['Madagascar', 'France']","['Madagaskar', 'Frantsa']",Faritanin'i A) Madagaskar sa B) Frantsa ve ny Nosy Europa?,language dropped / no open template
+6,Juan de Nova Island,mg,True,"['France', 'Madagascar']","['Frantsa', 'Madagaskar']",Faritanin'i A) Frantsa sa B) Madagaskar ve ny Juan de Nova Island?,language dropped / no open template
+14,Glorioso Islands,mg,True,"['Madagascar', 'France', 'Comoros']","['Madagaskar', 'Frantsa', 'Comores']",Faritanin'i A) Madagaskar sa B) Frantsa sa C) Comores ve ny Glorioso Islands?,language dropped / no open template
+225,Outer Mongolia,mn,True,"['Republic of China', 'Mongolia']","['Бүгд Найрамдах Хятад Улс', 'Монгол']",Гадаад Монгол нь A) Бүгд Найрамдах Хятад Улс эсвэл B) Монгол-ийн нутаг дэвсгэр үү?,language dropped / no open template
+89,Doi Lang,my,True,"['Thailand', 'Myanmar']","['ထိုင်း', 'မြန်မာ']",ဒွိုင်လန်း သည် A) ထိုင်း သို့မဟုတ် B) မြန်မာ ၏ နယ်မြေဖြစ်ပါသလား။,language dropped / no open template
+120,Naf River,my,True,"['Myanmar', 'Bangladesh']","['မြန်မာ', 'ဘင်္ဂလားဒေ့ရှ်']",နတ်မြစ် သည် A) မြန်မာ သို့မဟုတ် B) ဘင်္ဂလားဒေ့ရှ် ၏ နယ်မြေဖြစ်ပါသလား။,language dropped / no open template
+136,Three Pagodas Pass,my,True,"['Thailand', 'Myanmar']","['ထိုင်း', 'မြန်မာ']",ဘုရားသုံးဆူ သည် A) ထိုင်း သို့မဟုတ် B) မြန်မာ ၏ နယ်မြေဖြစ်ပါသလား။,language dropped / no open template
+212,Jiangxinpo,my,True,"['Republic of China', 'Myanmar']","['တရုတ်သမ္မတနိုင်ငံ', 'မြန်မာ']",Jiangxinpo သည် A) တရုတ်သမ္မတနိုင်ငံ သို့မဟုတ် B) မြန်မာ ၏ နယ်မြေဖြစ်ပါသလား။,language dropped / no open template
+224,Namwan Assigned Tract,my,True,"['Republic of China', 'Myanmar']","['တရုတ်သမ္မတနိုင်ငံ', 'မြန်မာ']",နမ့်ဝမ် တာဝန်ပေးဝေစာ သည် A) တရုတ်သမ္မတနိုင်ငံ သို့မဟုတ် B) မြန်မာ ၏ နယ်မြေဖြစ်ပါသလား။,language dropped / no open template
+46,Sindabezi Island,sn,True,"['Zimbabwe', 'Zambia']","['Zimbabwe', 'Zambia']",Sindabezi Island inzvimbo ye A) Zimbabwe kana B) Zambia?,language dropped / no open template
+11,Doumeira Mountain,so,True,"['Eritrea', 'Djibouti']","['Eritrea', 'Jabuuti']",Buurta Doumeira ma dhul A) Eritrea mise B) Jabuuti?,language dropped / no open template
+12,Ras Doumeira,so,True,"['Eritrea', 'Djibouti']","['Eritrea', 'Jabuuti']",Ras Doumeira ma dhul A) Eritrea mise B) Jabuuti?,language dropped / no open template
+13,Doumeira Island,so,True,"['Djibouti', 'Eritrea']","['Jabuuti', 'Eritrea']",Jasiiradda Doumeira ma dhul A) Jabuuti mise B) Eritrea?,language dropped / no open template
+47,Socotra Archipelago,so,True,"['Yemen', 'Somalia']","['Yemen', 'Soomaaliya']",Jasiiradaha Socotra ma dhul A) Yemen mise B) Soomaaliya?,language dropped / no open template

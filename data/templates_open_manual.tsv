@@ -1,0 +1,6 @@
+code	language	template	source	note
+sq	Albanian	Cilit vend i përket XX?	hand-written by AI assistant (Claude)	Llama-70B output reversed meaning; not verified by a native speaker
+bs	Bosnian	Kojoj zemlji pripada XX?	hand-written by AI assistant (Claude)	same as the correct Croatian (hr) template; not verified by a native speaker
+sr	Serbian	Којој земљи припада XX?	hand-written by AI assistant (Claude)	Cyrillic, matching BorderLines sr queries; not verified by a native speaker
+sl	Slovenian	Kateri državi pripada XX?	hand-written by AI assistant (Claude)	Llama-70B output reversed meaning; not verified by a native speaker
+fa	Persian (Farsi)	XX متعلق به کدام کشور است؟	hand-written by AI assistant (Claude)	Llama-70B output contained a Vietnamese word; not verified by a native speaker
